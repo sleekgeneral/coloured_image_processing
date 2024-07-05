@@ -1,7 +1,7 @@
-# coloured_image_processing
+# Coloured Image Processing
 This repository contains Verilog modules for various image processing operations such as brightness adjustment, inversion, red/green/blue filtering, embossing, sharpness, and Sobel edge detection.
 
-# Project Structure
+## Project Structure
 parameter.v: Contains parameter definitions for image dimensions, input file paths, delays, and processing values.
 image_read.v: Handles reading the image data from an input file and initiates image processing.
 image_write.v: Handles writing the processed image data to an output BMP file.

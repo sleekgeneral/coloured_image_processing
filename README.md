@@ -37,6 +37,8 @@ THRESHOLD: Threshold value for threshold operation (default: 90)
 SIGN: Operation type for brightness (0: subtraction, 1: addition)
 
 ## Usage
+Initially convert your JPG image to HEX format, use the provided MATLAB code and upload the resulting file to the parameter file.
+
 Open the parameter.v file.
 
 Uncomment the desired image processing operation  from the corresponding define directive.
@@ -44,5 +46,3 @@ Uncomment the desired image processing operation  from the corresponding define 
 Use Vivado to simulate the code along with the provided testbench.
 
 Execute the simulation for 6 milliseconds.
-
-Check the output in the .sim folder to verify the results.

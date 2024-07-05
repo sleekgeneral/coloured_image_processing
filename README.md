@@ -6,7 +6,7 @@ parameter.v: Contains parameter definitions for image dimensions, input file pat
 image_read.v: Handles reading the image data from an input file and initiates image processing.
 image_write.v: Handles writing the processed image data to an output BMP file.
 
-# Features
+## Features
 Brightness Adjustment: Add or subtract a value to/from the pixel values.
 Invert Colors: Inverts the color of each pixel.
 Color Filtering: Isolates red, green, or blue components of the image.
@@ -14,7 +14,7 @@ Emboss Effect: Applies an emboss effect to the image.
 Sharpness: Enhances the sharpness of the image.
 Sobel Edge Detection: Detects edges using the Sobel operator.
 
-# Other Parameters
+## Other Parameters
 WIDTH: Image width (default: 768)
 HEIGHT: Image height (default: 512)
 START_UP_DELAY: Delay during startup (default: 100)
@@ -23,7 +23,7 @@ VALUE: Value for brightness adjustment (default: 50)
 THRESHOLD: Threshold value for threshold operation (default: 90)
 SIGN: Operation type for brightness (0: subtraction, 1: addition)
 
-# Usage
+## Usage
 Open the parameter.v file.
 Uncomment the desired image processing operation  from the corresponding define directive.
 Use Vivado to simulate the code along with the provided testbench.
